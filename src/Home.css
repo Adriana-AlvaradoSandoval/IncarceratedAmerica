@@ -27,11 +27,11 @@ section {
 .header a {
     font-family: var(--Playfiar);
     font-size: 0.9em;
-    color: #whitesmoke;
+    color: whitesmoke;
 }
 
 header {
-    background: url('../assets/equity-hero-policing.png');
+    background: url('../public/equity-hero-policing.png');
     background-position: -24rem -19rem;
     background-size: 150%;
     position: relative;

@@ -1,55 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Incarcerated America</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-   
-    <!--Links icons for bottom section buttons-->
-    <script src="https://kit.fontawesome.com/b61f200bc5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/style.css">
+import React from "react";
+import './Home.css'
+import { createMuiTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles';
+import {Typography} from '@material-ui/core'; 
+import NavBar from './components/NavBar'
+import Grid from './components/Grid'
 
-
-</head>
-<body>
-    <header>
-        <div class="container-fluid p-0">
-            <!-- for main navigation tag-->
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Incarcerating America</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="auto"></div>
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Reports</a>
-                      </li>
-                      <!-- create a drop down menu for this tab-->
-                      <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">Learn More</a>
-                        <div class="dropdown-content">
-                            <a href="#">Get Involved</a>
-                            <a href="#">Resources</a>
-                        </div>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </div>
-
-        <div class="container text-center">
+function Home(){
+    return(
+        <div className="Home">
+            <div class="container text-center">
             <div class="row">
                 <div class="container-fluid p-0">
                     <h6>Lorem ipsum</h6>
@@ -62,17 +21,13 @@
             </div>
 
         </div>
-    </header>
-
-    <main>
+    
     <section class="section-1">
-        <!-- text slightly overlapping an image-->
-
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-6">
                     <div class="pray">
-                        <img src="../assets/CorneliaLiArt.jpeg" alt="another tbd">
+                        <img src="../assets/CorneliaLiArt.jpeg" alt="another tbd"/>
                     </div>
                 </div>
             <div class="col-md-6">
@@ -95,7 +50,6 @@
         </div>
     </section>
 
-    <!--3 pricing section with purchase buttons-->
     <section class="section-2 container-fluid p-0">
         <div class="cover">
             <div class="content text-center">
@@ -132,7 +86,6 @@
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni nostrum beatae doloribus placeat ab illum dolor animi perferendis sequi sit, excepturi dignissimos vero quasi vel voluptas, minus quod sed quam?
             </p>
-            <!-- first card-->
             <div class="cards">
                 <div class="d-flex flex-row justify-content-center flex-wrap">
                     <div class="card">
@@ -149,7 +102,6 @@
                             </div>
                         </div>
                     </div>
-                    <!--second card-->
                     <div class="card">
                         <div class="card-body">
                             <div class="title">
@@ -164,7 +116,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- third Card-->
                     <div class="card">
                         <div class="card-body">
                             <div class="title">
@@ -184,7 +135,6 @@
         </div>
     </section>
 
-    <!-- 2 column section with buttons and icons -->
     <section class="section-3 container-fluid p-0 text-center">
         <div class="row">
             <div class="col-md-12 col-sm-12">
@@ -196,7 +146,6 @@
             </div>
         </div>
 <div class="platform row">
-    <!-- First button column-->
     <div class="col-md-6 col-sm-12 text-right">
         <div class="desktop shadow-lg">
             <div class="d-flax flex-row justify-contents-center">
@@ -208,7 +157,6 @@
             </div>
         </div>
     </div>
-    <!-- Second Button Column-->
     <div class="col-md-6 col-sm-12 tect-left">
         <div class="desktop shadow-lg">
             <div class="d-flax flex-row justify-contents-center">
@@ -223,7 +171,6 @@
 </div>
     </section>
 
-    <!---3 column reader feedback! -->
     <section class="section-4">
         <div class="container text-center">
             <h1 class="text-dark">What our Readers say about us</h1>
@@ -236,9 +183,9 @@
         </div>
         <div class="team row">
             <div class="col-md-4 col-12 text-center">
-                <div class="card mr-2 d-inline-block shadow-lg"> <!--adds the shadow style-->
+                <div class="card mr-2 d-inline-block shadow-lg">
                     <div class="card-img-top">
-                        <img src="../assets/perry.png" alt="Perry" class="img-fluid">
+                        <img src="../assets/perry.png" alt="Perry" class="img-fluid"/>
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Perry the Platypus</h3>
@@ -249,14 +196,12 @@
                 </div>
             </div>
             <div class="col-md-4 text-center">
-                <!--start carousel-->
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active text-center">
-                        <!--Card 2-->
                         <div class="card mr-2 d-inline-block shadow-lg"> 
                             <div class="card-img-top">
-                                <img src="../assets/Snowball.jpeg" alt="Snuffles" class="img-fluid">
+                                <img src="../assets/Snowball.jpeg" alt="Snuffles" class="img-fluid"/>
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">Snuffles</h3>
@@ -270,10 +215,9 @@
                         </div>
                       </div>
                       <div class="carousel-item text-center">
-                        <!--Card 3-->
                         <div class="card mr-2 d-inline-block shadow-lg"> 
                             <div class="card-img-top">
-                                <img src="../assets/Jake the dog.jpeg" alt="Jake" class="img-fluid">
+                                <img src="../assets/Jake the dog.jpeg" alt="Jake" class="img-fluid"/>
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">Jake the Dog</h3>
@@ -289,9 +233,9 @@
                 </div>
             </div>
             <div class="col-md-4 col-12 text-center">
-                <div class="card mr-2 d-inline-block shadow-lg"> <!--adds the shadow style-->
+                <div class="card mr-2 d-inline-block shadow-lg">
                     <div class="card-img-top">
-                        <img src="../assets/dexter.png" alt="Dexter" class="img-fluid">
+                        <img src="../assets/dexter.png" alt="Dexter" class="img-fluid"/>
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Dexter</h3>
@@ -303,53 +247,9 @@
             </div>
         </div>
     </section>
-    </main>
-
-    <footer>
-        <div class="container-fluid p-0">
-            <div class="row text-left">
-                <div class="col-md-5 col-md-5">
-                    <h1 class="text-light">About us</h1>
-                    <p class="text-muted">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, hic.
-                    </p>
-                    <p class="pt-4 text-muted">
-                        copyright @ kshdfk jshd
-                    </p>
-                </div>
-                <div class="col-md-5">
-                    <h4 class="text-light">Newsletter</h4>
-                    <p class="text-muted"> Stay updated </p>
-                    <form action="form-inline">
-                        <div class="col pl">
-                            <div class="input-group pr-5">
-                                <input type="text" class="form-control bg-dark text-white" placeholder="Email">
-                                <div class="input-group-prepend">
-                                    <div class="input group-text">
-                                        <i class="fas fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-
-                </div>
-                <div class="col-md-2 sm-col-12">
-                    <h4 class="text-light">Follow us</h4>
-                    <p class="text-muted">Let us be social</p>
-                    <div class="column">
-                        <div class="fab fa-facebook-f"></div>
-                        <div class="fab fa-instagram"></div>
-                        <div class="fab fa-linkedin"></div>
-                        <div class="fab fa-youtube"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</body>
-</html>
+        </div>
+    );
+} 
+
+export default Home
