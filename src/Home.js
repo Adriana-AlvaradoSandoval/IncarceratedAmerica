@@ -1,27 +1,33 @@
-import React from "react";
+import React, { Component } from "react";
 import './Home.css'
 import { createMuiTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles';
 import {Typography} from '@material-ui/core'; 
 import NavBar from './components/NavBar'
 import Grid from './components/Grid'
+import { Link } from "react-router-dom";
+import { FormatUnderlined } from "@material-ui/icons";
 
 function Home(){
     return(
         <div className="Home">
             <div class="container text-center">
             <div class="row">
-                <div class="container-fluid p-0">
-                    <Typography varient="h6" color = "white" align = "center" >
+                <div className="firstBlock">
+                    <Typography className="title1" varient="h6" align = "center" >
                         Incarcerated America
                     </Typography>
-                    <Typography variant="h1" color="white" align= "center">
+                    <Typography className="title2" variant="h6" align= "center">
                         The unseen Americans and their Political Impact
                     </Typography>
                     
-                    <Typography varient="p">
-                        The United States of America is known for incarcerating the largest amount of its people. With millions of citizens locked behind bars, politicians 
-                        have been rumored to use these unseen bodies as a means to gain voting power without the influence of the people's votes. This site is intended to shine 
-                        a light on the injustices lobying politicans have been hiding for years. 
+                    <Typography className="para1" varient="p" >
+                        The United States of America The US has the world's highest incarceration rate. Current estimates indicate 
+                        that there are approximately 2.3 million people incarcerated in the United States, with an additional 4.5 million people 
+                        on probation or parole. Despite representing under 5% of the global population, the US holds almost 20% of the global prison 
+                        population according to the&nbsp;
+                        <a href="https://sites.tufts.edu/prisondivestment/the-pic-and-mass-incarceration/" className= "Tuffs" target={"_blank"}>
+                            Tuffs University Prison Divestment.
+                        </a>
                     </Typography>
                 </div>
             </div>
@@ -37,22 +43,23 @@ function Home(){
                     </div>
                 </div>
             <div class="col-md-6">
-                <div class="panel text-left">
-                    <h1>Some title</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias nobis mollitia tempora optio facilis laboriosam laborum 
-                        repudiandae cum provident, magni culpa quidem ratione id praesentium aliquam sapiente totam nesciunt.Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Placeat molestias nobis mollitia tempora optio facilis laboriosam laborum repudiandae cum provident, magni culpa quidem 
-                        ratione id praesentium aliquam sapiente totam nesciunt.
-                    </p>
-                    <p>
+                <Typography variant="h6" align="left">
+                    The Prison Industrial Complex
+                </Typography>
+                <Typography vairent="p" align="left" >
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias nobis mollitia tempora optio facilis laboriosam laborum 
                         repudiandae cum provident, magni culpa quidem ratione id praesentium aliquam sapiente totam nesciunt.Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. Placeat molestias nobis mollitia tempora optio facilis laboriosam laborum repudiandae cum provident, magni culpa quidem 
                         ratione id praesentium aliquam sapiente totam nesciunt.
-                    </p>
-                </div>
+                        </Typography>
+                        <Typography vairent="p" align="left" display="block">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias nobis mollitia tempora optio facilis laboriosam laborum 
+                        repudiandae cum provident, magni culpa quidem ratione id praesentium aliquam sapiente totam nesciunt.Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Placeat molestias nobis mollitia tempora optio facilis laboriosam laborum repudiandae cum provident, magni culpa quidem 
+                        ratione id praesentium aliquam sapiente totam nesciunt.
+                </Typography>
             </div>
-            </div>
+        </div>
         </div>
     </section>
 

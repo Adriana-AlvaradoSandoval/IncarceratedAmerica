@@ -6,7 +6,7 @@ import './Header.css';
 
 function Header() {
   return (
-    <div className='header'>
+    <div className="header">
         <AppBar position='static'>
             <Grid container justify={'center'}>
                 <Toolbar>

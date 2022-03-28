@@ -24,72 +24,40 @@ section {
 
 }
 
-.header a {
-    font-family: var(--Playfiar);
-    font-size: 0.9em;
+.firstBlock {
+    background: url('../public/equity-hero-policing.png');
+    background-size: fill;
+    padding: 100px 0px;
+    position: relative;
     color: whitesmoke;
 }
 
-header {
-    background: url('../public/equity-hero-policing.png');
-    background-position: -24rem -19rem;
-    background-size: 150%;
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16 px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-header .nav-item:last-child {
-    padding-right: 10.5em;
-}
-
-header .nav-item {
-    padding: .9em;
-}
-
-header .nav-brand {
-    padding: left 8rem;
-}
-
-header .nav-link :hover {
-    color: black;
-}
-
-header .row .container {
-    padding: 22vmin 1vmin;
-    padding-bottom: 35vmin;
-    font-family: var(--Alex-font);
-}
-
-/* center heading */
-header .container .container h1 {
-    font-size: 15 vmin;
+.firstBlock .title1 {
+    font-family: var(--Oswald);
+    font-size: 30pt;
     font-weight: bold;
-    padding: 0.1 em 0em;
+    text-shadow: 2px 2px 5px black;
+
 }
 
-header .container p {
-    padding: 1 vmin 5 vmin;
+.firstBlock .title2 {
+    font-family: var(--Bebas);
+    font-size: 40pt;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.firstBlock .para1 {
+    font-family: var(--Oswald);
+    font-size: 20pt;
+    padding: 0px 25px;
+}
+
+.firstBlock .Tuffs {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.firstBlock .Tuffs:hover {
+    text-decoration-line: underline;
 }
