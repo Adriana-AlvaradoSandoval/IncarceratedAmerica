@@ -17,10 +17,7 @@ function App() {
         <Header />
 
         <Switch>
-        {/*  <Route path="/report">
-            <Report />
-          </Route>
-  */}
+          
           <Route path="/report">
             <Report />
           </Route>
