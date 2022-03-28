@@ -11,15 +11,21 @@ function Home(){
             <div class="container text-center">
             <div class="row">
                 <div class="container-fluid p-0">
-                    <h6>Lorem ipsum</h6>
-                    <h1>Dolorem aliquam dolores minus aspernatur</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ut iusto expedita! Aut eligendi libero nulla eaque. 
-                        Officiis itaque quas autem eos quo, ex vitae quae iste voluptatum praesentium inventore?
-                    </p>
-                    <button class="btn btn-light px-5 py-5">Learn more</button>
+                    <Typography varient="h6" color = "white" align = "center" >
+                        Incarcerated America
+                    </Typography>
+                    <Typography variant="h1" color="white" align= "center">
+                        The unseen Americans and their Political Impact
+                    </Typography>
+                    
+                    <Typography varient="p">
+                        The United States of America is known for incarcerating the largest amount of its people. With millions of citizens locked behind bars, politicians 
+                        have been rumored to use these unseen bodies as a means to gain voting power without the influence of the people's votes. This site is intended to shine 
+                        a light on the injustices lobying politicans have been hiding for years. 
+                    </Typography>
                 </div>
             </div>
-
+        
         </div>
     
     <section class="section-1">
