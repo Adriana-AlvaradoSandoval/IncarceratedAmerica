@@ -62,12 +62,21 @@ section {
     text-decoration-line: underline;
 }
 
-.imgSplit .Complex {
+.Complex {
     align-content: left;
-    padding-right: 5px;
+    padding: 10px;
+    width: 50%;
+    float: right;
 }
 
 .LiArt {
-    background: url("../public/LiArt.jpeg");
-    background-size: cover;
+    background-image: url("../public/LiArt.jpeg");
+    height: 300px;
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.imgSplit {
+    width: 100%;
 }

@@ -36,13 +36,10 @@ function Home(){
     
     <section className="section-1">
         <div className="imgSplit">
-            <div class="row">
-                <div>
-                    <div className="LiArt" class="image">
-                        <img src="../public/LiArt.jpeg" alt="Prisoners Image" />
-                    </div>
-                </div>
-            <div className="Complex" Component md={6} xs={12}>
+            <div className="LiArt">
+                <img src="../public/LiArt.jpeg" alt="Prisoners Image" />
+            </div>
+            <div className="Complex">
                 <Typography variant="h6" align="left">
                     The Prison Industrial Complex
                 </Typography>
@@ -59,7 +56,6 @@ function Home(){
                         ratione id praesentium aliquam sapiente totam nesciunt.
                 </Typography>
             </div>
-        </div>
         </div>
     </section>
 
