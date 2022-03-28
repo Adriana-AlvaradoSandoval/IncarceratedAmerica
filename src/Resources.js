@@ -1,11 +1,11 @@
 import React from "react";
 
-function Report() {
+function Resources() {
     return (
         <div>
-            <p1>Reports</p1>
+            <p1>Resources</p1>
         </div>
     );
 }
 
-export default Report
+export default Resources
