@@ -7,7 +7,7 @@ import './Header.css';
 function Header() {
   return (
     <div className="header">
-        <AppBar position='static'>
+        <AppBar position='static' style={{ background:"#000000"}}>
             <Grid container justify={'center'}>
                 <Toolbar>
                 <MenuItem component={Link} to="/">

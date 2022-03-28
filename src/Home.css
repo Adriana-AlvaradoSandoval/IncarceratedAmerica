@@ -61,3 +61,13 @@ section {
 .firstBlock .Tuffs:hover {
     text-decoration-line: underline;
 }
+
+.imgSplit .Complex {
+    align-content: left;
+    padding-right: 5px;
+}
+
+.LiArt {
+    background: url("../public/LiArt.jpeg");
+    background-size: cover;
+}

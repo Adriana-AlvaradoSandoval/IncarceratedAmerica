@@ -34,15 +34,15 @@ function Home(){
         
         </div>
     
-    <section class="section-1">
-        <div class="container text-center">
+    <section className="section-1">
+        <div className="imgSplit">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="pray">
-                        <img src="../assets/CorneliaLiArt.jpeg" alt="another tbd"/>
+                <div>
+                    <div className="LiArt" class="image">
+                        <img src="../public/LiArt.jpeg" alt="Prisoners Image" />
                     </div>
                 </div>
-            <div class="col-md-6">
+            <div className="Complex" Component md={6} xs={12}>
                 <Typography variant="h6" align="left">
                     The Prison Industrial Complex
                 </Typography>
