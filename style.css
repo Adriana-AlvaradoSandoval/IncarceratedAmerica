@@ -1,0 +1,95 @@
+/* google fonts inport*/
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bebas+Neue&family=Courgette&family=Oswald&family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box
+}
+
+header,
+section {
+    overflow-x: hidden;
+    /* hide all the extra left and right space from the header */
+}
+
+:root {
+    --Alex-font: "Alex Brush", cursive;
+    --Bebas: "Bebas Neue", cursive;
+    --Courgette: "Courgette", cursive;
+    --Oswald: "Oswald", cursive;
+    --Playfiar: "Playfair Display", cursive;
+    --light-black: #352F2D;
+    --bgGradient: linear-gradient(to bottom,
+            #304756, #82A2B2);
+    --light-grey: rgba(255, 255, 255, 0);
+
+}
+
+.header a {
+    font-family: var(--Playfiar);
+    font-size: 0.9em;
+    color: #whitesmoke;
+}
+
+header {
+    background: url('../assets/equity-hero-policing.png');
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16 px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: .9em;
+}
+
+header .nav-brand {
+    padding: left 8rem;
+}
+
+header .nav-link :hover {
+    color: black;
+}
+
+header .row .container {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Alex-font);
+}
+
+/* center heading */
+header .container .container h1 {
+    font-size: 15 vmin;
+    font-weight: bold;
+    padding: 0.1 em 0em;
+}
+
+header .container p {
+    padding: 1 vmin 5 vmin;
+}
