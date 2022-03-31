@@ -9,6 +9,8 @@ header,
 section {
     overflow-x: hidden;
     /* hide all the extra left and right space from the header */
+    color: whitesmoke;
+    background-color: black;
 }
 
 :root {
@@ -64,7 +66,8 @@ section {
 
 .Complex {
     align-content: left;
-    padding: 10px;
+    padding: 0px 10px;
+    padding-right: 15px;
     width: 50%;
     float: right;
 }
@@ -74,9 +77,18 @@ section {
     height: 300px;
     width: 50%;
     float: left;
-    padding: 10px;
+    padding: 15px;
 }
 
 .imgSplit {
     width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+iframe {
+    position: relative;
+    align-items: center;
+    height: 600px;
+    width: 800px;
 }

@@ -1,0 +1,37 @@
+.hero {
+    background-image: url('../public/RestorativeJustice.jpeg');
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.class.card {
+    max-width: 100%;
+}
+
+.class.media {
+    height: 240;
+}
+
+.class.cardActions {
+    display: flex;
+    margin: 0px 10px;
+    justify-content: space-between;
+}
+
+.class.author {
+    display: flex;
+}
+
+.class.paginationContainer {
+    display: flex;
+    justify-Content: center;
+}

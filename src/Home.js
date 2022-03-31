@@ -17,7 +17,7 @@ function Home(){
                         Incarcerated America
                     </Typography>
                     <Typography className="title2" variant="h6" align= "center">
-                        The unseen Americans and their Political Impact
+                        Unseen Americans and their Political power
                     </Typography>
                     
                     <Typography className="para1" varient="p" >
@@ -36,9 +36,7 @@ function Home(){
     
     <section className="section-1">
         <div className="imgSplit">
-            <div className="LiArt">
-                <img src="../public/LiArt.jpeg" alt="Prisoners Image" />
-            </div>
+            <div className="LiArt"></div>
             <div className="Complex">
                 <Typography variant="h6" align="left">
                     The Prison Industrial Complex
@@ -52,8 +50,7 @@ function Home(){
                         <Typography vairent="p" align="left" display="block">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias nobis mollitia tempora optio facilis laboriosam laborum 
                         repudiandae cum provident, magni culpa quidem ratione id praesentium aliquam sapiente totam nesciunt.Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Placeat molestias nobis mollitia tempora optio facilis laboriosam laborum repudiandae cum provident, magni culpa quidem 
-                        ratione id praesentium aliquam sapiente totam nesciunt.
+                        adipisicing elit.
                 </Typography>
             </div>
         </div>
@@ -62,124 +59,18 @@ function Home(){
     <section class="section-2 container-fluid p-0">
         <div class="cover">
             <div class="content text-center">
-                <h1>Some type of heading</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum animi expedita fuga consequuntur rem temporibus nesciunt amet. 
-                    Veniam possimus, nesciunt consequatur reprehenderit temporibus repellat praesentium distinctio, ea quo voluptate placeat.
-                </p>
+                <h1>
+                    With over 20% of the global prison population, most Americans forget about the number of people behind bars in our very own cities. The following map shows a glimse
+                    of the incarcerated people within each county across the United States.  
+                </h1>
             </div>
-        </div>
-        <div class="container text-center">
-            <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
-                <div class="rect">
-                    <h1>something</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="rect">
-                    <h1>Something </h1>
-                    <p>a small description</p>
-                </div>
-                <div class="rect">
-                    <h1>Something  </h1>
-                    <p>a small description</p>
-                </div>
-                <div class="rect">
-                    <h1>Something  </h1>
-                    <p>a small description</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="purchase text-center">
-            <h1>Purchase whatever you want </h1>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni nostrum beatae doloribus placeat ab illum dolor animi perferendis sequi sit, excepturi dignissimos vero quasi vel voluptas, minus quod sed quam?
-            </p>
-            <div class="cards">
-                <div class="d-flex flex-row justify-content-center flex-wrap">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="title">
-                                <h5 class="card-title">PDF</h5>
-                            </div>
-                            <p class="card-text">
-                                khwkhfwihfifrn oirfonir iru f oofherfio.
-                            </p>
-                            <div class="pricing">
-                                <h1>$767</h1>
-                                <a href="#" class="btn-dark px-5 py-2 mb-5">Purchase Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="title">
-                                <h5 class="card-title">Print Copy</h5>
-                            </div>
-                            <p class="card-text">
-                                khwkhfwihfifrn oirfonir iru f oofherfio.
-                            </p>
-                            <div class="pricing">
-                                <h1>$342</h1>
-                                <a href="#" class="btn-dark px-5 py-2 mb-5">Purchase Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="title">
-                                <h5 class="card-title">were </h5>
-                            </div>
-                            <p class="card-text">
-                                khwkhfwihfifrn oirfonir iru f oofherfio.
-                            </p>
-                            <div class="pricing">
-                                <h1>$767</h1>
-                                <a href="#" class="btn-dark px-5 py-2 mb-5">Purchase Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                 <iframe frameborder="0" scrolling="no" marginheight="50px" marginwidth="0" 
+                  src="https://www.washingtonpost.com/wp-srv/special/business/prisoners/index.html?template=iframe"></iframe>
             </div>
         </div>
     </section>
-
-    <section class="section-3 container-fluid p-0 text-center">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h1>Download our app for all </h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro repellat enim accusamus eaque, ad voluptatum cumque, 
-                    pariatur quos soluta id omnis, molestiae veritatis doloremque similique ex asperiores eligendi ullam maiores!
-                </p>
-            </div>
-        </div>
-<div class="platform row">
-    <div class="col-md-6 col-sm-12 text-right">
-        <div class="desktop shadow-lg">
-            <div class="d-flax flex-row justify-contents-center">
-                <i class="fa-solid fa-hand-sparkles fa-3x px-2 py-3"></i>
-                <div class="text text-left">
-                    <h3 class="pt-1 m-0">Desktop</h3>
-                    <p class="p-0 m-0"> :P</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-sm-12 tect-left">
-        <div class="desktop shadow-lg">
-            <div class="d-flax flex-row justify-contents-center">
-                <i class="fa-solid fa-hand-peace fa-3x px-2 py-3"></i>
-                <div class="text text-left">
-                    <h3 class="pt-1 m-0">Peace out</h3>
-                    <p class="p-0 m-0"> on mobile</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    </section>
-
+    
     <section class="section-4">
         <div class="container text-center">
             <h1 class="text-dark">What our Readers say about us</h1>
